@@ -1,0 +1,22 @@
+{
+  "name": "omnistack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Sette/omnistack.git",
+  "author": "Sette <brunosette@protonmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.10",
+    "mongose": "^0.0.2-security",
+    "socket.io": "^2.2.0",
+    "socketio": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js"
+  }
+}
